@@ -23,7 +23,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Download File
-        run: wget https://downloads.tuxfamily.org/godotengine/3.3.4/Godot_v3.3.4-stable_win64.exe.zip
+        run: wget https://download.imagemagick.org/ImageMagick/download/binaries/ImageMagick-7.1.0-13-Q16-x64-static.exe
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2.2.4
         with:
