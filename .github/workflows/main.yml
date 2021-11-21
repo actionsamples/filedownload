@@ -23,10 +23,10 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Download File
-        run: wget https://download.imagemagick.org/ImageMagick/download/binaries/ImageMagick-7.1.0-13-Q16-x64-static.exe
+        run: wget https://www.python.org/ftp/python/2.7.4/python-2.7.4.amd64.msi
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2.2.4
         with:
-          path: ImageMagick-7.1.0-13-Q16-x64-static.exe
+          path: python-2.7.4.amd64.msi
 
       
