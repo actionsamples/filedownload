@@ -24,10 +24,10 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Download File
-        run: wget https://www.python.org/ftp/python/3.10.4/python-3.10.4-amd64.exe
+        run: wget https://download.gimp.org/mirror/pub/gimp/v2.10/windows/gimp-2.10.0-setup-1.exe
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2.2.4
         with:
-          path: python-3.10.4-amd64.exe
+          path: gimp-2.10.0-setup-1.exe
 
       
