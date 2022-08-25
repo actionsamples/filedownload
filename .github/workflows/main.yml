@@ -24,10 +24,10 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Download File
-        run: wget https://get.helm.sh/helm-v3.7.1-linux-amd64.tar.gz
+        run: wget https://get.helm.sh/helm-v3.9.3-windows-amd64.zip
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2.2.4
         with:
-          path: helm-v3.7.1-linux-amd64.tar.gz
+          path: helm-v3.9.3-windows-amd64.zip
 
       
